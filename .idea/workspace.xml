@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a466aa3-4022-4ffe-b886-f905a5abd296" name="Changes" comment="feat: cria classe BancoDePalavras">
-      <change beforePath="$PROJECT_DIR$/src/BancoDePalavrasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BancoDePalavrasTest.java" afterDir="false" />
+    <list default="true" id="4a466aa3-4022-4ffe-b886-f905a5abd296" name="Changes" comment="feat: cria embaralhadores usados no jogo">
+      <change afterPath="$PROJECT_DIR$/src/EmbaralhadorAleatorioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -55,40 +57,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BancoDePalavrasTest.testFileNotFound">
-    <configuration name="BancoDePalavras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BancoDePalavras" />
-      <module name="JogoDasPalavrasEmbaralhadas" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="JogoDasPalavrasEmbaralhadas" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BancoDePalavrasTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JogoDasPalavrasEmbaralhadas" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BancoDePalavrasTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BancoDePalavrasTest.testEmptyFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JogoDasPalavrasEmbaralhadas" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BancoDePalavrasTest" />
-      <option name="METHOD_NAME" value="testEmptyFile" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.EmbaralhadorInversoTest">
     <configuration name="BancoDePalavrasTest.testFileNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JogoDasPalavrasEmbaralhadas" />
       <option name="PACKAGE_NAME" value="" />
@@ -99,13 +68,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EmbaralhadorAleatorioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JogoDasPalavrasEmbaralhadas" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EmbaralhadorAleatorioTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmbaralhadorInversoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JogoDasPalavrasEmbaralhadas" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EmbaralhadorInversoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FabricaEmbaralhadoresTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JogoDasPalavrasEmbaralhadas" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FabricaEmbaralhadoresTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FabricaEmbaralhadoresTest.testCriarEmbaralhador" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JogoDasPalavrasEmbaralhadas" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FabricaEmbaralhadoresTest" />
+      <option name="METHOD_NAME" value="testCriarEmbaralhador" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EmbaralhadorInversoTest" />
+        <item itemvalue="JUnit.EmbaralhadorAleatorioTest" />
+        <item itemvalue="JUnit.FabricaEmbaralhadoresTest.testCriarEmbaralhador" />
+        <item itemvalue="JUnit.FabricaEmbaralhadoresTest" />
         <item itemvalue="JUnit.BancoDePalavrasTest.testFileNotFound" />
-        <item itemvalue="JUnit.BancoDePalavrasTest.testEmptyFile" />
-        <item itemvalue="JUnit.BancoDePalavrasTest" />
-        <item itemvalue="Application.BancoDePalavras" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +166,35 @@
       <option name="project" value="LOCAL" />
       <updated>1686955252132</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: cria classe BancoDePalavras">
+      <created>1686955342533</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686955342533</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: cria embaralhadores usados no jogo">
+      <created>1686956681809</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686956681809</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: cria embaralhadores usados no jogo">
+      <created>1686956752530</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686956752530</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: cria embaralhadores usados no jogo">
+      <created>1686956770774</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686956770774</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,7 +213,8 @@
     <MESSAGE value="chore(init): inicia projeto" />
     <MESSAGE value="feat: adiciona banco de palavras" />
     <MESSAGE value="feat: cria classe BancoDePalavras" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: cria classe BancoDePalavras" />
+    <MESSAGE value="feat: cria embaralhadores usados no jogo" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: cria embaralhadores usados no jogo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
