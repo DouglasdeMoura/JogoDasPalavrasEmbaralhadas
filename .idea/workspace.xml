@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a466aa3-4022-4ffe-b886-f905a5abd296" name="Changes" comment="feat: adiciona README" />
+    <list default="true" id="4a466aa3-4022-4ffe-b886-f905a5abd296" name="Changes" comment="feat: cria classe principal">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,9 +26,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
@@ -227,21 +226,7 @@
       <option name="project" value="LOCAL" />
       <updated>1686970254844</updated>
     </task>
-    <task id="LOCAL-00015" summary="feat: cria classe principal">
-      <created>1687005131815</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1687005131815</updated>
-    </task>
-    <task id="LOCAL-00016" summary="feat: adiciona README">
-      <created>1687024307273</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1687024307274</updated>
-    </task>
-    <option name="localTasksCounter" value="17" />
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,7 +248,6 @@
     <MESSAGE value="feat: cria embaralhadores usados no jogo" />
     <MESSAGE value="feat: cria interface e implementação da mecânica do jogo" />
     <MESSAGE value="feat: cria classe principal" />
-    <MESSAGE value="feat: adiciona README" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adiciona README" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: cria classe principal" />
   </component>
 </project>
