@@ -41,4 +41,10 @@ public class FabricaMecanicaDoJogoTest {
         int calculatedScore = mecanicaDoJogo.calculateScore(userInput);
         Assertions.assertEquals(expectedScore, calculatedScore);
     }
+
+    @Test
+    public void testGameOver() {
+        mecanicaDoJogo.setGameOver(true);
+        Assertions.assertTrue(mecanicaDoJogo.isGameOver());
+    }
 }

@@ -23,4 +23,9 @@ public class FabricaMecanicaDoJogo implements MecanicaDoJogo {
         score += wordLength * 10;
         return score;
     }
+
+    @Override
+    public void setGameOver(boolean b) {
+        gameOver = b;
+    }
 }

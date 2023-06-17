@@ -3,4 +3,6 @@ public interface MecanicaDoJogo {
     boolean isCorrectWord(String userInput, String targetWord);
     boolean canTryAgain();
     int calculateScore(String userInput);
+
+    void setGameOver(boolean b);
 }
